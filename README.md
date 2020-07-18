@@ -19,3 +19,6 @@ I achieved 92.95% of test dataset accuracy on MNISTafter 40 epoches, without exp
 ## Usage
 
    $ python main.py
+   
+   
+This is a good implementation of soft-decision tree. In each node, we use a nerual network to serve as the feature. Decision tree is good at dealing with tablau data, however, its shortcoming is in low model capacity. Combine the tree structure and neural network together, we think there will be some interesting things.
